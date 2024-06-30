@@ -1,0 +1,56 @@
+.event-list-card {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem;
+  max-width: 100%;
+  max-height: calc(100% - 2rem);
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.event-list-card h2 {
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: #f79c53;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.event-list-card p {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.know-more-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #f79c53;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.know-more-btn i:hover {
+  transform: translateX(5px);
+  transition: transform 0.3s;
+}
+
+/* make the card responsive */
+@media (max-width: 768px) {
+  .event-list-card {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .event-list-card h2 {
+    font-size: 1rem;
+  }
+  .event-list-card p {
+    font-size: 0.7rem;
+  }
+  .know-more-btn {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,29 @@
+.team-section {
+  position: relative;
+  height: 100%;
+}
+
+.team-section-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  height: 100%;
+  padding: 4rem;
+}
+
+#team-h1 {
+  font-weight: 900;
+  color: #f79c53;
+  text-align: left;
+}
+
+.team-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  height: 100%;
+  margin-top: 2rem;
+}
