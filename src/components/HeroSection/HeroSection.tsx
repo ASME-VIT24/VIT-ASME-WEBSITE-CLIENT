@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <section className="hero-section">
       <div className="video-background">
-        <video autoPlay loop muted>
+        <video autoPlay loop muted controls={false}>
           <source src={backgroundVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -22,6 +22,14 @@ const HeroSection = () => {
           />
         </div>
         {/* <div className="gradient" /> */}
+        <div
+          className="register-btn"
+          onClick={() => {
+            window.location.href = "https://events.vit.ac.in/events/ASME/";
+          }}
+        >
+          <button>Register Now</button>
+        </div>
         <div className="scroll-downs">
           <div className="mousey">
             <div className="scroller" />

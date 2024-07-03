@@ -63,6 +63,29 @@
   }
 }
 
+.register-btn {
+  margin: 2rem;
+}
+
+.register-btn button {
+  background-color: #f79c53;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.register-btn button:hover {
+  background-color: #f79c53;
+  color: white;
+  transform: scale(1.1);
+}
 .scroll-downs {
   position: absolute;
   bottom: 20vh;
@@ -128,6 +151,14 @@
     left: 0;
     top: 0;
   }
+  .register-btn {
+    margin: 1rem;
+  }
+  .register-btn button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
   .scroll-downs {
     display: none;
   }

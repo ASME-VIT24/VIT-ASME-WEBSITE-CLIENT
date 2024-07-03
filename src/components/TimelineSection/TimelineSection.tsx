@@ -4,16 +4,17 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import queue from "../../assets/images/Queue-amico.png";
-import closed from "../../assets/images/Closed sign-pana.png";
+import aerodash from "../../assets/images/aerodash.png";
+import bridgeIt from "../../assets/images/bridgeit.png";
+// import doorbin from "../../assets/images/doorbin.png";
 import EventListCard from "../UI/EventListCard/EventListCard";
 const TimelineSection = () => {
   return (
     <section className="timeline-section">
       <div className="timeline-section-container">
-        <h1 id="timeline-h1">Timeline</h1>
+        <h1 id="timeline-h1">Events</h1>
         <VerticalTimeline animate={true} lineColor="#1e1c1c">
-          <VerticalTimelineElement
+          {/* <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "#f79c53", color: "#1e1c1c" }}
             contentArrowStyle={{ borderRight: "7px solid  #f79c53" }}
@@ -35,8 +36,8 @@ const TimelineSection = () => {
               Registerations for Mechnovate 2024 will open on 20th June 2024.
               Don't miss out!
             </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
+          </VerticalTimelineElement> */}
+          {/* <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="21st June 2024"
             contentStyle={{ background: "#f79c53", color: "#1e1c1c" }}
@@ -57,12 +58,12 @@ const TimelineSection = () => {
               Registerations for Mechnovate 2024 will close on 1st July 2024.
               Register now!
             </p>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
           <VerticalTimelineElement
-            date="9th July 2024"
+            date="Competitions"
             contentStyle={{ background: "#f79c53", color: "#1e1c1c" }}
             iconStyle={{ background: "#f79c53", color: "#1e1c1c" }}
-            icon={<i className="bi bi-1-circle-fill" />}
+            icon={<i className="bi bi-award" />}
           >
             <h2
               className="vertical-timeline-element-title"
@@ -71,32 +72,19 @@ const TimelineSection = () => {
                 color: "#ffffff",
               }}
             >
-              Day 1
+              Competitions
             </h2>
             <div className="events-preview-box">
-              <EventListCard
-                eventName="Aerodash"
-                eventTime="11:30 am - 6:30 pm"
-              />
-              <EventListCard
-                eventName="Mech-A-Thon"
-                eventTime="10:00 am - 11:59 pm"
-              />
-              <EventListCard
-                eventName="Ornithopter"
-                eventTime="02:30 pm - 06:30 pm"
-              />
-              <EventListCard
-                eventName="Telescope"
-                eventTime="11:30 am - 06:00 pm"
-              />
+              <EventListCard eventName="Aerodash" eventImage={aerodash} />
+              <EventListCard eventName="Bridge It" eventImage={bridgeIt} />
+              {/* <EventListCard eventName="Mech-A-Thon 3.0" eventImage={doorbin} /> */}
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date="10th July 2024"
+            date="Workshops"
             contentStyle={{ background: "#f79c53", color: "#1e1c1c" }}
             iconStyle={{ background: "#f79c53", color: "#1e1c1c" }}
-            icon={<i className="bi bi-2-circle-fill" />}
+            icon={<i className="bi bi-gear-wide-connected" />}
           >
             <h2
               className="vertical-timeline-element-title"
@@ -105,10 +93,10 @@ const TimelineSection = () => {
                 color: "#ffffff",
               }}
             >
-              Day 2
+              Workshops
             </h2>
             <div className="events-preview-box">
-              <EventListCard
+              {/* <EventListCard
                 eventName="Aerodash"
                 eventTime="09:00 am - 04:00 pm"
               />
@@ -123,8 +111,40 @@ const TimelineSection = () => {
               <EventListCard
                 eventName="Telescope"
                 eventTime="09:00 pm - 11:00 pm"
-              />
+              /> */}
             </div>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date="Guest Lectures"
+            contentStyle={{ background: "#f79c53", color: "#1e1c1c" }}
+            iconStyle={{ background: "#f79c53", color: "#1e1c1c" }}
+            icon={<i className="bi bi-megaphone-fill" />}
+          >
+            <h2
+              className="vertical-timeline-element-title"
+              style={{
+                fontWeight: "900",
+                color: "#ffffff",
+              }}
+            >
+              Sapentia
+            </h2>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date="Mechnoventure"
+            contentStyle={{ background: "#f79c53", color: "#1e1c1c" }}
+            iconStyle={{ background: "#f79c53", color: "#1e1c1c" }}
+            icon={<i className="bi bi-rocket-takeoff-fill" />}
+          >
+            <h2
+              className="vertical-timeline-element-title"
+              style={{
+                fontWeight: "900",
+                color: "#ffffff",
+              }}
+            >
+              Mechnoventure
+            </h2>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

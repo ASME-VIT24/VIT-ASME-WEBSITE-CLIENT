@@ -59,7 +59,12 @@ const Footer: React.FC = () => {
             <li className="link_name">Contacts</li>
             <li>
               <a href="#">
-                <i className="bi bi-envelope" /> asmeclub@vit.edu
+                <i className="bi bi-envelope" /> asme@vit.ac.in
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i className="bi bi-envelope" /> official.mechnovate@gmail.com
               </a>
             </li>
             <li>

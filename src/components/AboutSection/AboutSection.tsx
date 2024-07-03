@@ -7,25 +7,17 @@ const AboutSection = () => {
         <div className="about-text">
           <h1 id="about-h1">What is Mechnovate?</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-            dolor erat, suscipit at metus eu, ultrices rhoncus risus. Vivamus
-            venenatis enim quis velit posuere, at finibus nulla volutpat.
-            Aliquam porttitor iaculis hendrerit. Integer vitae tortor massa.
-            Morbi volutpat arcu eget ipsum aliquet, ac volutpat libero suscipit.
-            Nullam eu turpis non diam rhoncus auctor vel sit amet quam. Duis
-            vulputate varius mauris eget porttitor. Donec hendrerit turpis quis
-            quam lobortis tempor. Morbi viverra arcu eget arcu fringilla
-            ullamcorper. Aliquam ac malesuada massa. Quisque at massa in mi
-            mollis tempor a nec risus. Cras eu nisl blandit, dignissim ante id,
-            vestibulum nisl. Ut maximus lacus nec nunc euismod ullamcorper. In
-            eget ipsum ut magna gravida pellentesque nec egestas mi. Vestibulum
-            imperdiet cursus lectus, id suscipit arcu ornare ac. Maecenas sed
-            egestas lorem. Sed maximus odio nisi, vitae lobortis urna sodales
-            quis. Vivamus eu justo id sem pretium fringilla. Ut sed euismod
-            ipsum. Vivamus ac risus ante. Cras imperdiet viverra faucibus.
-            Vivamus cursus tincidunt libero, et semper diam blandit vitae. Sed
-            efficitur, risus non maximus ornare, urna urna laoreet neque, ac
-            mattis leo purus et enim.
+            Mechnovate is the largest and widely recognized 3 day symposium
+            conducted by ASME-VIT. It focuses on innovation and advancements in
+            the field of mechanical engineering. It has successfully gathered
+            inquisitive and talented minds from all over India. Our motto is to
+            attain insights from our predecessors on the conduction of events
+            and reinventing ourselves while implementing future technology in
+            Mechnovate 2024. It includes workshops, keynote sessions and
+            competitions to foster collaboration and exchange of ideas among
+            students, researchers, and professionals in the domain of mechanical
+            engineering. Mechnovate takes place over the course of 3 days packed
+            with premium events.
           </p>
         </div>
         <div className="about-image">

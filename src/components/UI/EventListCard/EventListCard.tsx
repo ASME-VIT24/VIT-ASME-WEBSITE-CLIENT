@@ -2,18 +2,18 @@ import { useNavigate } from "react-router";
 import "./EventListCard.css";
 interface IEventListCardProps {
   eventName: string;
-  eventTime: string;
+  eventImage: string;
 }
 
 const EventListCard: React.FC<IEventListCardProps> = ({
   eventName,
-  eventTime,
+  eventImage,
 }) => {
   const navigate = useNavigate();
   return (
     <div className="event-list-card">
       <h2>{eventName}</h2>
-      <p>{eventTime}</p>
+      <img src={eventImage} alt="" />
       <div
         className="know-more-btn"
         onClick={() => {

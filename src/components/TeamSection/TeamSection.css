@@ -17,6 +17,19 @@
   text-align: left;
 }
 
+.grid-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.grid-rows h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #f79c53;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
 .team-grid {
   display: flex;
   gap: 2rem;
