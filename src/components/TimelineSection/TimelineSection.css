@@ -10,7 +10,7 @@
   height: 100%;
   padding: 4rem;
   flex-direction: column;
-  overflow-y: scroll;
+  /* overflow-y: scroll;    */
 }
 
 #timeline-h1 {
