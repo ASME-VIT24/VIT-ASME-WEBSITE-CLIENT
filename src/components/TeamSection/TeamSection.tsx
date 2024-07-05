@@ -22,7 +22,7 @@ const dummyTeamData = [
     img: student2,
   },
   {
-    name: "Yash Sonal",
+    name: "Yash Sonak",
     role: "Organiser",
     img: student3,
   },

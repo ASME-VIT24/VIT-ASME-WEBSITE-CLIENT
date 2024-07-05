@@ -10,10 +10,10 @@ export const events = [
   {
     name: "Aerodash",
     dates: [
-      { date: "08-08-2024", time: "11:15 am - 06:30 pm" },
+      { date: "08-08-2024", time: "11:00 am - 07:00 pm" },
       {
         date: "09-08-2024",
-        time: "09:00 am - 04:00 pm",
+        time: "09:00 am - 02:00 pm",
       },
     ],
     coverImg: flyer_aero,
@@ -26,7 +26,7 @@ export const events = [
       { date: "09-08-2024", time: "10:00 am - 11:59 pm" },
       {
         date: "10-08-2024",
-        time: "12:00 pm - 04:00 pm",
+        time: "09:00 am - 04:00 pm",
       },
     ],
     coverImg: flyer_mechathon,
@@ -35,7 +35,7 @@ export const events = [
   },
   {
     name: "Bridge It",
-    dates: [{ date: "09-08-2024", time: "10:00 am - 06:00 pm" }],
+    dates: [{ date: "09-08-2024", time: "09:00 am - 04:00 pm" }],
     coverImg: b_flyer,
     description: `Unleash your engineering potential in the Bridge-It Competition! MECHNOVATE 24 introduces Bridge-IT competition, an immersive competition that ignites your passion for design and engineering. Transform your initial sketches into real-world bridge models. The challenge? To see how much weight your design can hold! Bridge-IT is the perfect platform to showcase your creativity and put your engineering skills to the test. So join the fun, and bridge your way to victory!
  Join us at MECHNOVATE 24 and bridge the gap between theory and real-world engineering excellence`,
@@ -57,11 +57,11 @@ export const events = [
     dates: [
       {
         date: "09-08-2024",
-        time: "11:30 am - 06:00 pm",
+        time: "03:00 pm - 06:00 pm",
       },
       {
         date: "10-08-2024",
-        time: "09:00 pm - 11:00 pm",
+        time: "09:00 am - 05:00 pm",
       },
     ],
     coverImg: poster_garud,
@@ -73,7 +73,7 @@ export const events = [
     dates: [
       {
         date: "10-08-2024",
-        time: "09:00 am - 04:00 pm",
+        time: "10:00 am - 04:00 pm",
       },
     ],
     coverImg: arvr,
@@ -95,7 +95,7 @@ export const events = [
     dates: [
       {
         date: "08-08-2024",
-        time: "10:00 am - 06:00 pm",
+        time: "11:00 am - 07:00 pm",
       },
     ],
     coverImg: poster_mechnoventure,

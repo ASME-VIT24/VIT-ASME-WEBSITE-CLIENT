@@ -8,7 +8,7 @@ const AboutVitSection = () => {
           <img src={vit_bg} alt="" />
         </div>
         <div className="vit-info-text">
-          <h1 id="vit-info-h1">About VIT</h1>
+          <h1 id="vit-info-h1">About ASME-VIT</h1>
           <p>
             We are a vibrant community of aspiring engineers dedicated to
             enhancing our skills and knowledge. Established in 2010 with the

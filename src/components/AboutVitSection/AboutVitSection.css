@@ -10,6 +10,7 @@
   justify-content: center; */
   height: 100%;
   padding: 4rem;
+  gap: 2rem;
 }
 #vit-info-h1 {
   font-weight: 900;
@@ -23,8 +24,8 @@
   align-items: center;
   justify-content: right;
   text-align: justify;
-  padding-left: 10px;
 }
+
 .vit-info-image {
   display: flex;
   max-width: 50%;
