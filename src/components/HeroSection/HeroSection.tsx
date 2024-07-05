@@ -21,15 +21,14 @@ const HeroSection = () => {
             labelStyle={{ color: "#f79c53", fontWeight: "bold" }}
           />
         </div>
-        {/* <div className="gradient" /> */}
-        <div
+        {/* <div
           className="register-btn"
           onClick={() => {
             window.location.href = "https://events.vit.ac.in/events/ASME/";
           }}
         >
           <button>Register Now</button>
-        </div>
+        </div> */}
         <div className="scroll-downs">
           <div className="mousey">
             <div className="scroller" />

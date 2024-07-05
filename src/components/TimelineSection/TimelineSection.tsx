@@ -6,7 +6,12 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import aerodash from "../../assets/images/aerodash.png";
 import bridgeIt from "../../assets/images/bridgeit.png";
-// import doorbin from "../../assets/images/doorbin.png";
+import mechathon from "../../assets/images/5.png";
+import doorbin from "../../assets/images/doorbin.png";
+import arvr from "../../assets/images/29.png";
+import garud from "../../assets/images/garud.png";
+import mechnoventure from "../../assets/images//MECHNOVENTURE.png";
+import saplentia from "../../assets/images/27.png";
 import EventListCard from "../UI/EventListCard/EventListCard";
 const TimelineSection = () => {
   return (
@@ -77,7 +82,10 @@ const TimelineSection = () => {
             <div className="events-preview-box">
               <EventListCard eventName="Aerodash" eventImage={aerodash} />
               <EventListCard eventName="Bridge It" eventImage={bridgeIt} />
-              {/* <EventListCard eventName="Mech-A-Thon 3.0" eventImage={doorbin} /> */}
+              <EventListCard
+                eventName="Mech-A-Thon 3.0"
+                eventImage={mechathon}
+              />
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -96,22 +104,15 @@ const TimelineSection = () => {
               Workshops
             </h2>
             <div className="events-preview-box">
-              {/* <EventListCard
-                eventName="Aerodash"
-                eventTime="09:00 am - 04:00 pm"
-              />
               <EventListCard
-                eventName="Mech-A-Thon"
-                eventTime="12:00 pm - 04:00 pm"
+                eventName="दूरबीन: THE TELESCOPE WORKSHOP"
+                eventImage={doorbin}
               />
+              <EventListCard eventName="AR-VR" eventImage={arvr} />
               <EventListCard
-                eventName="Ornithopter"
-                eventTime="09:00 am - 05:00 pm"
+                eventName="गरुड़: An ORNITHOPTER WORKSHOP"
+                eventImage={garud}
               />
-              <EventListCard
-                eventName="Telescope"
-                eventTime="09:00 pm - 11:00 pm"
-              /> */}
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -127,8 +128,11 @@ const TimelineSection = () => {
                 color: "#ffffff",
               }}
             >
-              Sapentia
+              Saplentia
             </h2>
+            <div className="events-preview-box">
+              <EventListCard eventName="Saplentia" eventImage={saplentia} />
+            </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date="Mechnoventure"
@@ -145,6 +149,12 @@ const TimelineSection = () => {
             >
               Mechnoventure
             </h2>
+            <div className="events-preview-box">
+              <EventListCard
+                eventName="Mechnoventure"
+                eventImage={mechnoventure}
+              />
+            </div>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

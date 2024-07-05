@@ -1,4 +1,5 @@
 import AboutSection from "../../components/AboutSection/AboutSection";
+import AboutVitSection from "../../components/AboutVitSection/AboutVitSection";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import LocationSection from "../../components/LocationSection/LocationSection";
 import TeamSection from "../../components/TeamSection/TeamSection";
@@ -10,6 +11,7 @@ const HomePage = () => {
       <div className="home-page-container">
         <HeroSection />
         <AboutSection />
+        <AboutVitSection />
         <TimelineSection />
         <TeamSection />
         <LocationSection />

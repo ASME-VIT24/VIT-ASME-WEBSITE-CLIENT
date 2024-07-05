@@ -31,6 +31,8 @@
   text-align: center;
 }
 .team-grid {
+  overflow-y: hidden;
+
   display: flex;
   gap: 2rem;
   justify-content: center;
