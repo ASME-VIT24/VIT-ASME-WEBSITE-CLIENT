@@ -16,7 +16,7 @@ const HeroSection = () => {
         <img src={mechnovateLogo} alt="Mechnovate Logo" id="mechnovateLogo" />
         <div className="countdown">
           <FlipClockCountdown
-            to={new Date("2024-07-23").getTime() + 24 * 3600 * 1000 + 5000}
+            to={new Date("2024-08-08").getTime() + 24 * 3600 * 1000 + 5000}
             digitBlockStyle={{ backgroundColor: "#f79c53" }}
             labelStyle={{ color: "#f79c53", fontWeight: "bold" }}
           />
