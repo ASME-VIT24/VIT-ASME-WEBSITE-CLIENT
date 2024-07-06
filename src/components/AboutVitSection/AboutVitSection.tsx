@@ -1,5 +1,5 @@
 import "./AboutVitSection.css";
-import vit_bg from "../../assets/images/vit_bg.jpeg";
+import vit_bg from "../../assets/images/vit_bg.jpg";
 const AboutVitSection = () => {
   return (
     <section className="vit-info-section">

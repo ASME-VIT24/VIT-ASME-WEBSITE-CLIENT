@@ -10,10 +10,10 @@ export const events = [
   {
     name: "Aerodash",
     dates: [
-      { date: "08-08-2024", time: "11:00 am - 07:00 pm" },
+      { date: "08-08-2024", time: "11:15 am - 06:30 pm" },
       {
         date: "09-08-2024",
-        time: "09:00 am - 02:00 pm",
+        time: "09:00 am - 04:00 pm",
       },
     ],
     coverImg: flyer_aero,
@@ -26,7 +26,7 @@ export const events = [
       { date: "09-08-2024", time: "10:00 am - 11:59 pm" },
       {
         date: "10-08-2024",
-        time: "09:00 am - 04:00 pm",
+        time: "12:00 am - 04:00 pm",
       },
     ],
     coverImg: flyer_mechathon,
@@ -45,7 +45,11 @@ export const events = [
     dates: [
       {
         date: "08-08-2024",
-        time: "02:30 pm - 06:30 pm",
+        time: "11:30 pm - 06:00 pm",
+      },
+      {
+        date: "08-08-2024",
+        time: "09:00 pm - 11:00 pm",
       },
     ],
     coverImg: poster_doorbin,
@@ -57,7 +61,7 @@ export const events = [
     dates: [
       {
         date: "09-08-2024",
-        time: "03:00 pm - 06:00 pm",
+        time: "02:30 pm - 06:30 pm",
       },
       {
         date: "10-08-2024",
@@ -95,7 +99,7 @@ export const events = [
     dates: [
       {
         date: "08-08-2024",
-        time: "11:00 am - 07:00 pm",
+        time: "11:30 am - 07:30 pm",
       },
     ],
     coverImg: poster_mechnoventure,
@@ -105,12 +109,12 @@ export const events = [
     name: "Saplentia",
     dates: [
       {
-        date: "09-07-2024",
-        time: "10:00 am - 06:00 pm",
+        date: "08-08-2024",
+        time: "09:30 am - 11:00 am",
       },
       {
-        date: "10-07-2024",
-        time: "09:00 am - 04:00 pm",
+        date: "09-08-2024",
+        time: "05:00 pm - 07:00 pm",
       },
     ],
     coverImg: poster_saplentia,
