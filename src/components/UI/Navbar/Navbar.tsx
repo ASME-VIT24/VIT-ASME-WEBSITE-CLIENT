@@ -30,7 +30,9 @@ const Navbar = () => {
             </ScrollLink>
           </li>
           <li>
-            <p>Contact</p>
+            <ScrollLink to="wb-footer" smooth={true} duration={1000}>
+              <p>Contact</p>
+            </ScrollLink>
           </li>
           <li>
             <ScrollLink to="events-preview-box" smooth={true} duration={1000}>

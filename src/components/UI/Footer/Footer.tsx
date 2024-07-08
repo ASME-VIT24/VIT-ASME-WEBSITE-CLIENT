@@ -2,7 +2,7 @@ import "./Footer.css";
 import logo from "../../../assets/images/vit_logo.png";
 const Footer: React.FC = () => {
   return (
-    <footer>
+    <footer id="wb-footer">
       <div className="content">
         <div className="top">
           <div className="logo-details">
@@ -16,19 +16,19 @@ const Footer: React.FC = () => {
             />
           </div>
           <div className="media-icons">
-            <a href="#">
+            <a href="https://www.facebook.com/AsmeVit/">
               <i className="bi bi-facebook" />
             </a>
-            <a href="#">
+            <a href="https://x.com/asmevit?lang=en">
               <i className="bi bi-twitter" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/asme.vit/">
               <i className="bi bi-instagram" />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/company/american-society-of-mechanical-engineers-asme-vit-vellore/?originalSubdomain=in">
               <i className="bi bi-linkedin" />
             </a>
-            <a href="#">
+            <a href="https://www.youtube.com/@ASME-VIT">
               <i className="bi bi-youtube" />
             </a>
           </div>
@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
             </li>
             <li>
               <a href="#">
-                <i className="bi bi-telephone" /> +91 1234567890
+                <i className="bi bi-telephone" /> +91 9372946497
               </a>
             </li>
             <li>
